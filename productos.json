@@ -1,0 +1,52 @@
+{
+    "users": [
+        {
+            "ID": 1,
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_687546-MLA43870298631_102020-O.webp",
+            "precio": "$2.890",
+            "descripcion": "Mate Uruguayo Camionero Premium Cuero"
+        },
+        {
+            "ID": 2,
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_999736-MLA51356600296_082022-O.webp",
+            "precio": "$4.914",
+            "descripcion": "Mate Artesanal Forrado En Cuero Vaqueta Y Virola De Acero"
+        },
+        {
+            "ID": 3,
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_993364-MLA51184631957_082022-O.webp",
+            "precio": "$4.490",
+            "descripcion": "Mate Clasico De Acero Inoxidable Uso Extremo Thermio Termico"
+        },
+        {
+            "ID": 4,
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_793672-MLA51232459545_082022-O.webp",
+            "precio": "$6.649",
+            "descripcion": "Mate Camionero Uruguayo Calabaza Premium + Pico Loro Acero"
+        },
+        {
+            "ID": 5,
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_888990-MLA46998913493_082021-O.webp",
+            "precio": "$3.438",
+            "descripcion": "Mate Uruguayo Camionero Cuero Y Bombilla Pico De Loro Acero"
+        },
+        {
+            "ID": 6,
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_674184-MLA51121546322_082022-O.webp",
+            "precio": "$14.500",
+            "descripcion": "Mate Stanley Acero Inoxidable 236 Ml Original Frio / Calor"
+        },
+        {
+            "ID": 7,
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_900053-MLA49017544810_022022-O.webp",
+            "precio": "$1.200",
+            "descripcion": "Mate Viajero Personalizado Logo/diseño + bombilla De Regalo"
+        },
+        {
+            "ID": 8,
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_616315-MLA51668130982_092022-O.webp",
+            "precio": "$4.180",
+            "descripcion": "Mate Pampa X L Imperial Plástico Térmico + Regalo"
+        }
+    ]
+}

@@ -4,6 +4,7 @@ body{
     margin: 0;
 }
 header{
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,4 +32,16 @@ nav a{
 color: black;
 font-weight: 600;
 padding-right: 10px;
+}
+.cuadradoImagen{
+    height: 224px;
+    width: 224px;
+    
+}
+.productos{
+    height: 224px;
+    width: 224px;
+    padding: 8px;
+    margin: 8px;
+    background-color: white;
 }
