@@ -27,6 +27,7 @@ function pedirProductos(){
   .then(data =>{
     let productos = data.productos;
     let producto;
+    document.getElementById("productos").innerHTML="";
     for(let i = 0; i < productos.length; i = i + 1){
       producto = document.createElement("div");
       producto.className = "productos";

@@ -4,12 +4,13 @@ body{
     margin: 0;
 }
 header{
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
     padding: 10px;
+    box-shadow: 1px black;
 }
 .logo{
     display: flex;
@@ -23,13 +24,13 @@ header{
 }
 .buscador{
     justify-items: center;
-    height: 35px;
+    height: 25px;
     width: 400px;
     margin-left: 50px;
 }
 .buscador
 nav a{
-color: black;
+color:rgba(0,0,0,0.9);
 font-weight: 600;
 padding-right: 10px;
 }
@@ -38,10 +39,25 @@ padding-right: 10px;
     width: 224px;
     
 }
-.productos{
-    height: 224px;
+.productos{ 
+    color:rgba(0,0,0,0.9);
+    box-shadow: 1px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
     width: 224px;
     padding: 8px;
-    margin: 8px;
+    margin: 10px;
     background-color: white;
+    display: inline-block;
+}
+.nombrepagina{
+    color:rgba(0,0,0,0.9);
+}
+.nav-link{
+    color:rgba(0,0,0,0.9);
+    margin-left: 2px;
+}
+.descripción{
+    box-shadow: 1px black;
 }
