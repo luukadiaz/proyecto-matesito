@@ -58,6 +58,33 @@ padding-right: 10px;
     color:rgba(0,0,0,0.9);
     margin-left: 2px;
 }
-.descripción{
-    box-shadow: 1px black;
+.overlay-logueo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgba(0,0,0,.3);
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+.modal-logueo {
+background-color: white;
+border-radius: 10px;
+box-shadow: 1px black;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 350px;
+height: 500px;
+
+}
+.bienvenida-logueo {
+display: flex;
+justify-content: center;
+}
+.boton-login {
+display: flex;
+justify-content: center;
 }
