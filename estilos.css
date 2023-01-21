@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family:'Open Sans', sans-serif;
     background-color: whitesmoke;
     margin: 0;
 }
@@ -58,18 +58,18 @@ padding-right: 10px;
     color:rgba(0,0,0,0.9);
     margin-left: 2px;
 }
-.overlay-logueo {
-    display: flex;
+.overlay-registro {
+    display: none;
     justify-content: center;
     align-items: center;
-background-color: rgba(0,0,0,.3);
-position: fixed;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
+    background-color: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
-.modal-logueo {
+.modal-registro {
 background-color: white;
 border-radius: 10px;
 box-shadow: 1px black;
@@ -78,6 +78,8 @@ justify-content: center;
 align-items: center;
 width: 350px;
 height: 500px;
+margin: 0px 0px 10px 0px;
+padding: 0px 0px 10px 0px;
 
 }
 .bienvenida-logueo {
@@ -87,4 +89,7 @@ justify-content: center;
 .boton-login {
 display: flex;
 justify-content: center;
+}
+.formulario {
+    padding: 10px;
 }

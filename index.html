@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilos.css">
-    <script type="text/javascript" src="utilidades.js"> </script>
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="logo de la página">
-            <h2 class="nombrepagina">tu<br>matecito</h2>
-            <input type="text" class="buscador">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="estilos.css">
+        <script type="text/javascript" src="utilidades.js"> </script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="logo de la página">
+                <h2 class="nombrepagina">tu<br>matecito</h2>
+                <input type="text" class="buscador">
+            </div>
+            <nav>
+
+                <a href="javascript:abrirModalRegistro()" class="nav-link">crear cuenta</a> 
+                <a href="" class="nav-link">ingresá</a> 
+                <a href="" class="nav-link">carrito</a> 
+            </nav>
+        </header>
+        <button onclick="pedirProductos()">pedir datos</button>
+        <div id="productos"></div>
+
+
+        <div onclick="cerrarModalRegistro()" id="registro" class="overlay-registro">
+            <div class="modal-registro">
+                <form action="" class="formulario">
+                    <div class="bienvenida-logueo">
+                        <p>BIENVENIDO</p>   
+                    </div>
+                    <input type="text" placeholder="nombre" class="formulario">
+                    <br>
+                    <input type="email" placeholder="correo" class="formulario">
+                    <br>
+                    <input type="password" placeholder="contraseña" class="formulario">
+                    <div class="boton-login">
+                        <button>crear cuenta</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <nav>
-
-            <a href="" class="nav-link">creá tu cuenta</a> 
-            <a href="" class="nav-link">ingresá</a> 
-            <a href="" class="nav-link">carrito</a> 
-        </nav>
-    </header>
-    <button onclick="pedirProductos()">pedir datos</button>
-    <div id="productos"></div>
-
-
-    <div class="overlay-logueo">
-       <div class="modal-logueo">
-       <form action="">
-        <div class="bienvenida-logueo">
-        <p>BIENVENIDO</p>   
-        </div>
-        <input type="text" placeholder="nombre">
-        <br>
-        <input type="email" placeholder="correo">
-        <br>
-        <input type="password" placeholder="contraseña">
-        <div class="boton-login"></div>
-        <button>crear cuenta</button> 
-       </form>
-       </div>
-    </div>
-</body>
+    </body>
 </html>

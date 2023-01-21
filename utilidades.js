@@ -38,3 +38,9 @@ function pedirProductos(){
     }
   });
 }
+function abrirModalRegistro() {
+  document.getElementById("registro").style.display = "flex";
+}
+function cerrarModalRegistro() {
+  document.getElementById("registro").style.display = "none";
+}
