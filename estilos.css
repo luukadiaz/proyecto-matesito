@@ -58,7 +58,7 @@ padding-right: 10px;
     color:rgba(0,0,0,0.9);
     margin-left: 2px;
 }
-.overlay-registro {
+.overlay-logueo {
     display: none;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,7 @@ padding-right: 10px;
     left: 0;
     right: 0;
 }
-.modal-registro {
+.modal-logueo {
 background-color: white;
 border-radius: 10px;
 box-shadow: 1px black;

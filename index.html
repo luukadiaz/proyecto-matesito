@@ -17,7 +17,7 @@
             </div>
             <nav>
 
-                <a href="javascript:abrirModalRegistro()" class="nav-link">crear cuenta</a> 
+                <a href="javascript:abrirModalLogueo()" class="nav-link">crear cuenta</a> 
                 <a href="" class="nav-link">ingresá</a> 
                 <a href="" class="nav-link">carrito</a> 
             </nav>
@@ -26,19 +26,24 @@
         <div id="productos"></div>
 
 
-        <div onclick="cerrarModalRegistro()" id="registro" class="overlay-registro">
-            <div class="modal-registro">
-                <form action="" class="formulario">
+        <div onclick="cerrarModalLogueo()" id="logueo" class="overlay-logueo">
+            <div onclick="event.stopPropagation()" class="modal-logueo" id="div-logueo">
+                <form action="" class="logueo">
                     <div class="bienvenida-logueo">
                         <p>BIENVENIDO</p>   
                     </div>
                     <input type="text" placeholder="nombre" class="formulario">
                     <br>
-                    <input type="email" placeholder="correo" class="formulario">
+                    <input id="input-email" type="email" placeholder="correo" class="formulario">
                     <br>
-                    <input type="password" placeholder="contraseña" class="formulario">
+                    <input id="input-password"  type="password" placeholder="contraseña" class="formulario">
                     <div class="boton-login">
-                        <button>crear cuenta</button>
+                        <button 
+                            type="button"
+                            onclick="pedirUsuarios(
+                                document.getElementById('input-email').value,
+                                document.getElementById('input-password').value,
+                            )">ingresar</button>
                     </div>
                 </form>
             </div>
