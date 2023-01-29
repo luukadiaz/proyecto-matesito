@@ -1,5 +1,5 @@
 body{
-    font-family:'Open Sans', sans-serif;
+    font-family:'montserrat', sans-serif;
     background-color: whitesmoke;
     margin: 0;
 }
@@ -8,7 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #fff;
     padding: 10px;
     box-shadow: 1px black;
 }
@@ -27,6 +27,9 @@ header{
     height: 25px;
     width: 400px;
     margin-left: 50px;
+    border-radius: 10px;
+    border-color: #adadad;
+    border: 1px solid;
 }
 .buscador
 nav a{
@@ -48,7 +51,7 @@ padding-right: 10px;
     width: 224px;
     padding: 8px;
     margin: 10px;
-    background-color: white;
+    background-color: #fff;
     display: inline-block;
 }
 .nombrepagina{
@@ -70,7 +73,7 @@ padding-right: 10px;
     right: 0;
 }
 .modal-logueo {
-background-color: white;
+background-color: #fff;
 border-radius: 10px;
 box-shadow: 1px black;
 display: flex;
@@ -78,18 +81,32 @@ justify-content: center;
 align-items: center;
 width: 350px;
 height: 500px;
-margin: 0px 0px 10px 0px;
-padding: 0px 0px 10px 0px;
+font-family: 'montserrat', sans-serif;
+}
 
-}
-.bienvenida-logueo {
-display: flex;
-justify-content: center;
-}
-.boton-login {
-display: flex;
-justify-content: center;
-}
 .formulario {
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 220px;
+    height: 30px;
+    border: 1px solid;
+    border-color: #adadad;
+    border-radius: 15px;
+    padding: 2px 0px 2px 0px;
+    margin: 0px 0px 20px 0px;
+    font-size: 16px;
+}
+.boton-submit {
+font-size: 110%;
+font-family: 'montserrat', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 45px;
+width: 220px;
+background-color: black;
+color: #fff;    
+border-radius: 25px;
+margin-top: 40px;
 }

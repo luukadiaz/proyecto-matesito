@@ -54,3 +54,6 @@ function abrirModalLogueo() {
 function cerrarModalLogueo() {
   document.getElementById("logueo").style.display = "none";
 }
+// function checkPassword() {
+//   if (input-password == );
+// }

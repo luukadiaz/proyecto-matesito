@@ -11,8 +11,8 @@
     <body>
         <header>
             <div class="logo">
-                <img src="logo.png" alt="logo de la página">
-                <h2 class="nombrepagina">tu<br>matecito</h2>
+                <img src="logo.png" alt="logo de la página" style="margin: 0px 10px 3px 10px;">
+                <!-- <h2 class="nombrepagina">tu<br>matecito</h2> -->
                 <input type="text" class="buscador">
             </div>
             <nav>
@@ -28,22 +28,23 @@
 
         <div onclick="cerrarModalLogueo()" id="logueo" class="overlay-logueo">
             <div onclick="event.stopPropagation()" class="modal-logueo" id="div-logueo">
-                <form action="" class="logueo">
-                    <div class="bienvenida-logueo">
-                        <p>BIENVENIDO</p>   
+                <form action="" class="">
+                    <h1 style="text-align: center;margin-bottom: 30px;">Bienvenido</h1>
+                    <div class="formulario-logueo">
+                    <input type="text" placeholder="  nombre" class="formulario">
+                    <br>
+                    <input id="input-email" type="email" placeholder="  correo" class="formulario">
+                    <br>
+                    <input id="input-password"  type="password" placeholder="  contraseña" class="formulario">
                     </div>
-                    <input type="text" placeholder="nombre" class="formulario">
-                    <br>
-                    <input id="input-email" type="email" placeholder="correo" class="formulario">
-                    <br>
-                    <input id="input-password"  type="password" placeholder="contraseña" class="formulario">
-                    <div class="boton-login">
+                    <div>
                         <button 
-                            type="button"
+                            class="boton-submit"
+                            type="submit"
                             onclick="pedirUsuarios(
                                 document.getElementById('input-email').value,
                                 document.getElementById('input-password').value,
-                            )">ingresar</button>
+                            )">crear cuenta</button>
                     </div>
                 </form>
             </div>
